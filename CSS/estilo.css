@@ -1,0 +1,416 @@
+.banner{
+    background-color:#003057;
+}
+
+h2{
+    color:rgb(68, 51, 51);
+    font-size: 25px;
+    font-family: Open Sans,sans-serif;
+    font-weight: bolder;
+}
+
+h4{
+    font-family: Open Sans,sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(68, 51, 51);
+}
+
+h3{
+    font-family: Open Sans,sans-serif;
+    text-align: left;
+    font-weight: bolder;
+    color: rgb(68, 51, 51);
+}
+
+h5{
+    font-family: Open Sans,sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(68, 51, 51);
+    font-weight: bolder;
+}
+
+.cor1{
+    background-color:white;
+}
+
+h1{
+color: rgb(68, 51, 51);
+font-size: 25px;
+font-weight: bolder;
+font-family: Open Sans,sans-serif;
+}
+
+.nav-link{
+    color: #003057;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.new1{
+    background-color: rgb(224, 224, 171);
+}
+
+.new2{
+    background-color:rgb(241, 241, 241);
+}
+
+.logotipo{
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color:#003057 ;   
+}
+
+.titulo-centralizado{
+    color: white;
+    text-transform: uppercase;   
+}
+
+.redes{
+    text-align: end;
+    background-color:#003057; 
+}
+
+.redes ul li{
+    display: inline;
+    background-color:#003057;  
+}
+
+h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.paginas{
+    background-color: rgb(241, 239, 239);
+}
+
+img.figura{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faleconosco{
+    background-color: rgb(241, 239, 239);
+    margin: 1.7em auto;
+    max-width: 1000px;
+    box-sizing:content-box;
+    position: relative;
+}
+
+.ingles{
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(241, 239, 239);
+}
+
+footer{
+    background-color:#003057;
+    padding: 13px 0;  
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .box{
+    flex-basis: 100%;
+    padding: 5px 10px;
+}
+
+.content{
+    color: aliceblue;
+}
+
+.obrigado{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: #003057;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 19px;  
+}
+
+.btn{
+    background-color: aliceblue;
+    text-decoration: none;
+    color: #003057;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 16px;
+}
+
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .top .logo-details{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.content .top .media-icons{
+    display: flex;
+}
+
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    margin:0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.fotos{
+    padding:0%;
+}
+
+.text2{
+    font-size: 45px;
+    color: #003057;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.paragrafo2{
+    color: #003057;
+    margin-bottom: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.text3{
+    font-size: 30px;
+    color: #003057;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text4{
+    font-size: 18px;
+    color: #003057;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.text5{
+    font-size: 27px;
+    color:forestgreen;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.text6{
+    font-size: 30px;
+    color:darkorange;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 18px;
+    color:#003057;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.main-title{
+    font-size: 30px;
+    color:#003057;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text{
+    font-size: 15px;
+    color:#003057;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.checkout{
+    background: #003057 100% 100%;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;   
+}
+
+.container{
+    background: rgb(241, 241, 241);
+    border-radius: 25px;
+    width:100%;
+    max-width: 750px ;   
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.logo_name{
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.align{
+    text-align: right;
+}
+
+.footer-col ul li{
+list-style-type: none;
+padding-right: 14px;
+margin-top: 0px;
+text-align: center;
+}
+
+.footer-col ul {
+    display: flex;
+}
+
+.logox{
+    margin-top: 0px;
+}
+
+.botoex{
+    margin-left: 10px;
+
+}
+
+.register{
+    background: #003057;
+    overflow: hidden;
+    font-family: Open Sans,sans-serif;
+    font-size: 15px;
+}
+
+.area-register{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado{
+    background-color: rgb(241, 239, 239);
+    width: 360px;
+    height: 300px;
+    padding: 35px;
+    border-radius: 10px;  
+}
+
+.quadrado form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.quadrado input{
+    margin-top: 10px;
+    background-color: rgba(119, 113, 113, 0.89);
+    padding-left: 10px;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px ;
+    color: aliceblue;   
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+
+.sucesso{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.alert-success {
+    color: #155724;
+}
+
+.areaalunologin{
+    text-align: center;
+
+}
+
+@media (max-width:800px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px){
+    .footer-col{
+        width:100%;
+       
+    }
+}
+
+.img-fluid{
+    min-width: 100%;
+}
+
+.voltar{
+    text-align: center;
+}

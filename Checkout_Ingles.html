@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPV Idiomas | Curso de Inglês, Espanhol, Italiano e Alemão</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+</head>
+<body class="checkout">
+<div class="container ">
+<div class="row g-3">
+<div class="col-4 order-md-last">
+<br>
+<h4 class="d-flex justify-content-between align-item-center">
+<span class="text-muted">Curso escolhido</span>
+</h4>
+<ul class="list-group">
+<li class="list-group-item d-flex justify-content-between">
+<div>                  
+<span class="text-muted">Curso Inglês</span>
+</div>
+<span class="text-muted">R$ 958,80</span>
+</li>
+<li class="list-group-item d-flex justify-content-between">
+<div>
+<h6>Total (R$)</h6>
+</div>
+<span class="text-muted">R$ 958,80</span>
+</li>
+</ul>
+</div>
+<div class="col-8">
+<br>
+<h4>Dados Cadastrais</h4> 
+<script>
+            function valida(){
+            if(document.f_aula.$Nome.value == ""){
+            alert("Digite o seu primeiro nome");
+            document.getElementById("f_inome").focus();
+            return false;
+           }
+            if(document.f_aula.$Sobrenome.value == ""){
+			alert("Digite o seu sobrenome");
+			document.getElementById("f_isobrenome").focus();
+			return false;
+		   }
+            if(document.f_aula.$Email.value == ""){
+			alert("Digite o seu email");
+			document.getElementById("f_iemail").focus();
+			return false;
+           }
+            if(document.f_aula.$Telefone.value == ""){
+			alert("Digite o seu telefone");
+			document.getElementById("f_itelefone").focus();
+			return false;
+           }
+            if(document.f_aula.$Forma_Pagamento[0].checked == false
+            && document.f_aula.$Forma_Pagamento[1].checked == false){
+			alert("Selecione o tipo de pagamento");
+			return false;
+           }
+            if(document.f_aula.$Nome_no_Cartão.value == ""){
+			alert("Digite o nome impresso no cartão");
+			document.getElementById("f_icardname").focus();
+			return false;
+           }
+            if(document.f_aula.$Número_Cartão.value == ""){
+	 		alert("Digite o número do cartão");
+			document.getElementById("f_icreditcard").focus();
+			return false;
+          }
+            if(document.f_aula.$Validade.value == ""){
+			alert("Digite a validade do cartão");
+			document.getElementById("f_iexpiration").focus();
+			return false;
+         }
+            if(document.f_aula.$CVV.value == ""){
+			alert("Digite o CVV do cartão");
+			document.getElementById("f_icvv").focus();
+			return false;
+         }
+            if(document.f_aula.$Parcela.value == ""){
+			alert("Escolha a parcela desejada");
+			document.getElementById("f_iescolha").focus();
+			return false;
+         }
+            else{
+           alert("Ebaaaa!!! Recebemos o seu pedido ;) Agora é a hora da nossa análise, então fique atento que entraremos em contato em até 2 dias úteis via email!"); 
+         }   
+
+    }                                         
+</script>
+<form name="f_aula" method="post" action="https://api.staticforms.xyz/submit" onsubmit="return valida()">
+<input type="hidden" name="subject" value="Novo Pedido - Curso de Inglês">
+<div class="row">
+<div class="col-6">
+<label class="form-label" for="firstname">Primeiro nome</label>
+<input type="text" name="$Nome" id="f_inome" class="form-control" autocomplete="off">
+</div>
+<div class="col-6">
+<label class="form-label" for="lastname">Sobrenome</label>
+<input type="text" name="$Sobrenome" id="f_isobrenome" class="form-control" autocomplete="off">
+</div>
+<div class="col-12">
+<label class="form-label" for="email">E-mail</label>
+<div class="input-group">
+<span class="input-group-text">@</span>
+<input type="email" name="$Email" class="form-control" id="f_iemail"autocomplete="off">
+</div>
+<div class="col-12">
+<label class="form-label" for="telefone">Telefone (com DDD)</label>
+<input type="tel" name="$Telefone"  class="form-control"  id="f_itelefone" autocomplete="off">
+</div>
+<hr>
+<h4>Pagamento</h4>
+<div class="form-check">
+<input type="radio" name="$Forma_Pagamento" id="f_iopcao" class="form-check-input" autocomplete="off" value="Cartão de Débito">
+<label class="form-check-label" name="$Forma_Pagamento">Cartão de Débito</label> 
+</div>
+<div class="form-check">
+<input type="radio" name="$Forma_Pagamento" id="f_iopcao" class="form-check-input" value="Cartão de Crédito">
+<label class="form-check-label" name="$Forma_Pagamento">Cartão de Crédito</label> 
+</div>
+<div class="row">     
+<div class="col-6">
+<label class="form-label" for="cardname">Nome impresso no cartão</label>
+<input type="text" name= "$Nome_no_Cartão" id="f_icardname" class="form-control"> 
+</div>
+<div class="col-6">
+<label class="form-label" for="creditcard">Número do cartão</label>
+<input type="text" name="$Número_Cartão" id="f_icreditcard" class="form-control">
+</div>
+<div class="col-6">
+<label class="form-label" for="expiration">Validade</label>
+<input type="date" name="$Validade" id="f_iexpiration" class="form-control">
+</div>
+<div class="col-6">
+<label class="form-label" for="cvv">CVV</label>
+<input type="text" name="$CVV" id="f_icvv" class="form-control" >
+</div>
+<div class="col-12">
+<div class="form-group">
+<label for="exampleFormControlSelect1">Parcelas</label>
+<select class="form-control" id="f_iescolha" name="$Parcela">
+<option></option>
+<option>Pagamento à vista - R$ 958,80 </option>
+<option>2x de R$ 479,40 sem juros </option>
+<option>3x de R$ 319,60 sem juros</option>
+<option>4x de R$ 239,70 sem juros</option>
+<option>5x de R$ 191,76 sem juros</option>
+<option>6x de R$ 159,80 sem juros</option>
+</select>
+</div>
+<br>
+<input type="submit" value="Confirmar">
+<br>
+<br>
+</div>
+<input type="hidden" name="accessKey" value="ba2fcb76-76ec-42d7-84b4-f2d31d8df7fd">
+<input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+</form>
+</div>
+</div>
+</body>
+</html>
